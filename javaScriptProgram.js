@@ -33,7 +33,7 @@ function palindrome1(input)
 }
 palindrome1("radar");
 
-//2)Amstrong number.:- 1, 2, 3, 4, 5, 6, 7, 8, 9, 153, 370, 371, 407, 1634, 8208, 9474, 54748
+//2) Amstrong number.:- 1, 2, 3, 4, 5, 6, 7, 8, 9, 153, 370, 371, 407, 1634, 8208, 9474, 54748
 function amstrong(num)
 {
     let sum=0
@@ -56,7 +56,7 @@ function amstrong(num)
 }
 amstrong(54748);
 
-//Get Data&Time.
+//3) Get Data&Time.
 class DayDate {
 constructure(){ 
     this.today = new Date();
@@ -77,13 +77,13 @@ df()
 as()
 };
 
-//
+//4)
 function print_current_page()
 {
     window.print();
 };
 
-//Area of triangle
+//5) Area of triangle
 function areaTriangle(side1, side2, side3)
 {
     let perimeter = (side1 + side2 + side3)
@@ -97,7 +97,7 @@ function areaTriangle(side1, side2, side3)
 }
 areaTriangle(5, 6, 7);
 
-//Leap year
+//6) Leap year
 function leapYear(year)
 {
     let result = year%100===0 ? year%400 === 0 : year%4===0;
@@ -114,7 +114,7 @@ leapYear(1700);
 leapYear(1800);
 leapYear(100);
 
-//JavaScript program to find 1st January is being a Sunday between 2014 and 2050.
+//7) JavaScript program to find 1st January is being a Sunday between 2014 and 2050.
 console.log('----------------------------------------------------------------');
 for(let year= 2014; year<=2050; year++)
 {
